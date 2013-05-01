@@ -8,6 +8,6 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
-setlocal ai nosi
+setlocal ai nosi et ts=2 sw=2 nosr
 
 let b:undo_indent = "setl ai< si<"
